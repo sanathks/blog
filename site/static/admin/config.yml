@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+
+media_folder: "site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
+site_url: https://sanath.dev
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "site/content/post" # The path to the folder where the documents are stored
+    preview_path: blog/{{year}}/{{month}}/{{title}}
+    show_preview_links: true
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    delete: false
+    files:
+      - file: "site/content/contact/_index.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+
+      - file: "site/content/about/_index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: About, name: body, widget: markdown}
+
+  - name: 'settings'
+    label: "Settings"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "site/content/profile/_index.md"
+        label: "Profile"
+        name: "profile"
+        fields:
+          - label: 'Enable on'
+            name: 'positions'
+            widget: 'object'
+            fields:
+              - { label: 'Show in home page', name: 'in_home', widget: boolean }
+              - { label: 'Show in single post page', name: 'in_post', widget: boolean }
+          - {label: Profile Image, name: profile_image, widget: image}
+
+
