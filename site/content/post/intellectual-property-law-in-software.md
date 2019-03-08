@@ -1,6 +1,6 @@
 ---
 title: Intellectual property law in Software
-date: 2019-03-09T05:48:18.219Z
+date: 2019-03-08T05:48:18.219Z
 description: >-
   The software consists of formal instructions and code written by a programmer.
   Creating commercial software are most profitable nowadays as millions of
