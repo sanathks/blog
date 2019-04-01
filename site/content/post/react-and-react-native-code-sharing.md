@@ -8,4 +8,4 @@ description: >-
   components which differ from each other. So let's find out about the way we
   can share out code between the React and ReactNative.
 ---
-90% of you react app and react native app have similar code for example if you are using
+If you do a google search you will be able to find many approaches. But most of them are talking about "write once and runs everywhere", but in my case I needed to separate the react (web components) and the react native (mobile components).
