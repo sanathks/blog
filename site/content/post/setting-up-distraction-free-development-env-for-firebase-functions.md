@@ -1,6 +1,6 @@
 ---
 title: 'Setting up distraction free development env for firebase functions '
-date: 2030-03-07T13:16:48.798Z
+date: 2050-06-07T13:16:48.798Z
 description: >-
   Usually, most of the developers use the default `firebase serve` command to
   spin up their development env, the main disadvantage that I see in that
