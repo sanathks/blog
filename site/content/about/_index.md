@@ -1,10 +1,6 @@
 ---
-title: 'Hello I''m Sanath '
+title: Hey there!
 ---
-We’d love to get in touch with you and hear your ideas and questions. We strive to grow and improve constantly and your feedback is valuable for us.
+What's up? 
 
-
-
-How can I get…?
-
-You can also use the form below for any inquiries about coffee availability, monthly subscriptions and scheduling a 1-on-1 session with our baristas. Don’t be shy, drop us a line!
+Yeah!. Lets drive into the topic, I started my software development life as embedded system developer, had a lots of fun paring software and hardware. Then I switch to the web development (yeah became a spider :/ )  and thing got more excited and I'm still exploring that new world. It's been more than 8 years.
